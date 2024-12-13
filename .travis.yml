@@ -3,10 +3,6 @@ language: python
 python:
   - "3.9"
 
-# Environment variable for the bot token
-env:
-  - BOT_TOKEN=7792781879:AAEMUjfgQLNp0lVnfP9JPbhOlmmVK9O5paM
-
 # Install dependencies
 install:
   - python3 -m pip install --upgrade pip
